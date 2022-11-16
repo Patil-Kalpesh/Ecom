@@ -475,9 +475,9 @@ form a {
 @media only screen and (max-width: 800px){
     nav ul{
         position: absolute;
-        top:85px;
+        top:75px;
         left:0;
-        background: #333;
+        background: radial-gradient(#fff,#ffd6d6);
         width: 100%;
         overflow: hidden;
         transition: max-height 0.5s;
