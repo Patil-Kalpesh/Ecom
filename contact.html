@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Quantico:wght@700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+    
+</head>
+<body>
+    <div class="hedear">
+        <div class="container">
+            <div class="navebar">
+                <div class="logo">
+                    <a href="index.html"><img src="images/logo.png"></a>
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="#ft">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <a href="cart.html"><img src="images/cart.png"  width="30px" height="30px"></a>
+                <img src="images/menu.png"  class="menu-icon" onclick="menutoggle()">
+            </div> 
+       
+        </div>
+   </div>
+  <!-- navbar end -->
+
+  
+    <!-- contact p -->
+   <div class="cont-11">
+        <div class="cont-head"><h2>Contact us</h2>
+            
+        </div>
+        <div class="row-11">
+            <div class="side-1">
+                    <div class="login-box"> 
+                        <h2>Send Massage
+                        </h2> 
+                        <form> 
+                        <div class="user-box"> 
+                        <input type="text" name="" required="" /> 
+                        <label>Name</label> 
+                        </div> 
+                        <div class="user-box"> 
+                        <input type="email" name="" required="" /> 
+                        <label>Email</label> 
+                        </div> 
+                        <div class="user-box"> 
+                            <input type="text" name="" required="" /> 
+                            <label>Type your Massage</label> 
+                            </div> 
+                        <a href="#"> 
+                             Submit 
+                        </a> 
+                        </form> 
+                        
+                    </div> 
+             </div>
+    
+            <div class="side-2">
+               <div class="loc">
+                <img src="images/location.jpg" alt="">
+                <p><span>Address</span>
+                <br>
+                New Mumbai ,Nerul West<br>Pin-400001</p>
+               </div>
+               <div class="loc">
+                <img src="images/phone-icon.webp" alt=""><p><span>Phone</span><br>
+                74200-00655</p>
+               </div>
+                <div class="loc">
+                <img src="images/email-icon.jpg" alt=""><p><span>Email</span><br>
+                kgpatil1997@gmail.com</p>
+               </div>
+               <div class="loc">
+                <p class="h-3"><span>Contact with us</span>
+                <br>
+                <i class="coni fa-brands fa-facebook"></i>
+                <i class="coni fa-brands fa-instagram"></i>
+                <i class="coni fa-brands fa-twitter"></i>
+                <i class="coni fa-brands fa-linkedin"></i>
+            </p>
+                
+              
+               </div>
+            </div>
+        </div>
+   </div>
+    
+    <!-- contact End -->
+    
+    
+    
+    <!-----footer------>
+    <div class="footer" id="ft">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Downlode Our App</h3>
+                    <p>Downlod App for Android and ios Mobile Phone.</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/logo-white.png" >
+                    <p>Download App for Androind and iso Mobile phone.</p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>coupons</li>
+                        <li>blog post</li>
+                        <li>Return Policy</li>
+                        <li>Join Affiliate</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="Copyright"> Copyright 2022 -@KalpeshPatil</p>
+        </div>
+    </div>
+    <!-- footer end -->
+    <!-----js for toggle menu-->
+    <script>
+        var MenuItems = document.getElementById("MenuItems")
+        MenuItems.style.maxHeight = "0px"
+       
+        function menutoggle(){
+            if(MenuItems.style.maxHeight == "0px" ){
+                MenuItems.style.maxHeight = "200px"
+            }
+            else{
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+</html>
