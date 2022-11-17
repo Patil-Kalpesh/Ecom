@@ -470,7 +470,7 @@ form a {
     margin: auto;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #8a8a8a;
+    background-color: rgba(102, 102, 255,0.4);
 }
 .row-11{
     display: flex;
@@ -581,7 +581,7 @@ form a {
     border-radius: 10px;
 }
 .loc p{
- color: #fff;
+ color: #555;
  padding-left:20px;
 }
 .h-3{
